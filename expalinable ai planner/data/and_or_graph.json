@@ -1,0 +1,62 @@
+{
+  "A": {
+    "heuristic": 10,
+    "branches": [
+      {
+        "type": "OR",
+        "nodes": ["B"],
+        "cost": 1
+      },
+      {
+        "type": "AND",
+        "nodes": ["C", "D"],
+        "cost": 2
+      }
+    ]
+  },
+  "B": {
+    "heuristic": 6,
+    "branches": [
+      {
+        "type": "OR",
+        "nodes": ["G1"],
+        "cost": 2
+      }
+    ]
+  },
+  "C": {
+    "heuristic": 2,
+    "branches": [
+      {
+        "type": "OR",
+        "nodes": ["G2"],
+        "cost": 1
+      }
+    ]
+  },
+  "D": {
+    "heuristic": 4,
+    "branches": [
+      {
+        "type": "OR",
+        "nodes": ["G3"],
+        "cost": 1
+      }
+    ]
+  },
+  "G1": {
+    "heuristic": 0,
+    "branches": [],
+    "solved": true
+  },
+  "G2": {
+    "heuristic": 0,
+    "branches": [],
+    "solved": true
+  },
+  "G3": {
+    "heuristic": 0,
+    "branches": [],
+    "solved": true
+  }
+}
